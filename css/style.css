@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  /* background-repeat: no-repeat; */
+  flex-direction: column;
+}
+
+
+
+main {
+  flex: 1 0 auto;
+  
+}
+.page-footer{
+  background-color: #2962ff;
+  text-align: center;
+  /* background-image: url("https://images.pexels.com/photos/1546901/pexels-photo-1546901.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=1&w=500"); */
+}
+.nav-wrapper{
+  background-color: #2962ff;
+
+
+}
+
+.brand-logo{
+  /* font-family: 'Great Vibes', cursive; */
+  font-family: 'Courgette', cursive;
+  
+}
