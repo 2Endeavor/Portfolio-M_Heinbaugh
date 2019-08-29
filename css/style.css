@@ -27,3 +27,15 @@ main {
   font-family: 'Courgette', cursive;
   
 }
+.projCards{
+  background-color: red;
+}
+.clipart{
+  size: 50%;
+}
+.profile{
+  float: left;
+}
+p{
+  font-size: 20px;
+}
