@@ -1,22 +1,29 @@
+<head>
+    <meta charset="UTF-8" />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"/>
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.css" integrity="sha256-13EKEXRsynh3cmmNF1dlW6uvoC1SZVaW94bIHZQJoMU=" crossorigin="anonymous" />
+    
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Courgette|Great+Vibes&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|Kurale|Montaga|Petrona&display=swap" rel="stylesheet">
 
-  <!DOCTYPE html>
-  <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
- <!-- Compiled and minified CSS -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <title>M. Heinbaugh</title>
-    </head>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>M. Heinbaugh</title>
+  </head>
 
     <body>
         <nav>
-            <div class="nav-wrapper purple">
-              <a href="#" class="brand-logo">Maryanne Heinbaugh</a>
-              <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <div class="nav-wrapper green darken-4">
+              <a href="#" class="brand-logo" style="margin-left: 2%;">Maryanne Heinbaugh</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down"style="margin-right: 2%; font-family:Courgette, cursive;">
                 <li><a href="index.html">About</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -26,35 +33,89 @@
         
           <div class="container">
             <!-- carousel-->
-            <h1>CARUSEL</h1>
-            <div class="carousel">
-              <a href="#one!" class="carousel-item">
-                <img src="images/portfolio/Clicky.JPG" alt="">
-              </a>
-              <a href="#two!" class="carousel-item">
-                  <img src="images/portfolio/Clicky.JPG" alt="">
-              </a>
-              <a href="#three!" class="carousel-item">
-                  <img src="images/portfolio/Clicky.JPG" alt="">
-              </a>
+            <h2>Sample of Work</h2>
+            <div class="carousel carousel-slider" data-indicators="true" style="margin-bottom: 10%">
+
+                  <a href="#one!" class="carousel-item">
+                    <img src="images/portfolio/clicky2.jpg" alt="">
+                  </a>
+
+                <a href="#two!" class="carousel-item">
+                  <img src="images/portfolio/superheros.jpg" alt="">
+                </a>
+                <a href="#three!" class="carousel-item">
+                  <img src="images/portfolio/Burger2.JPG" alt="">
+                </a>
+                <a href="#four!" class="carousel-item">
+                  <img src="images/portfolio/capitol.jpg" alt="">
+                </a>
+            
 
             </div>
+
+            <!-- sample -->
+            <!-- <div class="carousel carousel-slider center" data-indicators="true">
+                <div class="carousel-fixed-item center">
+                  <a class="btn waves-effect white grey-text darken-text-2">button</a>
+                </div>
+                <div class="carousel-item red white-text" href="#one!">
+                  <h2>First Panel</h2>
+                  <p class="white-text">This is your first panel</p>
+                </div>
+                <div class="carousel-item amber white-text" href="#two!">
+                  <h2>Second Panel</h2>
+                  <p class="white-text">This is your second panel</p>
+                </div>
+                <div class="carousel-item green white-text" href="#three!">
+                  <h2>Third Panel</h2>
+                  <p class="white-text">This is your third panel</p>
+                </div>
+                <div class="carousel-item blue white-text" href="#four!">
+                  <h2>Fourth Panel</h2>
+                  <p class="white-text">This is your fourth panel</p>
+                </div>
+              </div> -->
 
 
           </div>
 
+        <footer class="page-footer green darken-4">
+          <div class="footer-copyright green darken-4" style="font-family:Courgette, cursive;">
+                © 2019 Copyright M.Heinbaugh
+          </div>
+        </footer>
+      
+
    <!-- Compiled and minified JavaScript. The javascript file is needed for the widgets -->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-   <!--  This wasn't part of the jquery cdn wasn't materialize boilerplat but it was part of Brad's video so I added it -->
-   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+
+
+  <!-- <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>  
+  crossorigin="anonymous"></script> -->
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+   
+   <!--  This wasn't part of the jquery cdn wasn't materialize boilerplat but it was part of Brad's video so I added it -->
+     
 
 
   <script>
     $(document).ready(function(){
      $('.carousel').carousel();
+     
+     
+    //  $('.carousel.carousel-slider').carousel({fullWidth: true});
+    $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  });
       });
+
+      
   </script>
-  </body>
+    </body>
   </html>

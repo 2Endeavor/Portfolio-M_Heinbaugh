@@ -37,15 +37,17 @@ main {
 }
 .footer-copyright{
   display: flex;
-  /* justify-content: space-around; */
-  /* background: green; */
-}
-.nav-wrapper{
-
-  background-color: green;
-
 
 }
+h6{
+    /* font-family: 'Great Vibes', cursive; */
+    /* font-family: 'Courgette', cursive; */
+    /* font-family: 'Kurale', serif; */
+    /* font-family: 'Aref Ruqaa', serif; */
+    /* font-family: 'Petrona', serif; */
+    font-family: 'Montaga', serif;
+}
+
 
 .brand-logo{
   display:flex;
@@ -62,9 +64,7 @@ main {
 .clipart{
   size: 50%;
 }
-/* .profile{
-  float: left;
-} */
+
 
 
 /* .row .col .m7{
@@ -92,3 +92,4 @@ main {
   background-color: blue;
   
 }
+
