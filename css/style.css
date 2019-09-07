@@ -1,9 +1,4 @@
-/* body {
-  display: flex;
-  min-height: 100vh;
-  /* background-repeat: no-repeat; */
-  flex-direction: column;
-} */
+
 
 
 
@@ -45,7 +40,11 @@ h6{
     /* font-family: 'Kurale', serif; */
     /* font-family: 'Aref Ruqaa', serif; */
     /* font-family: 'Petrona', serif; */
-    font-family: 'Montaga', serif;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+    
+
 }
 
 

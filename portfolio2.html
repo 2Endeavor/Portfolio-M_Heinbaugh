@@ -25,7 +25,7 @@
               <a href="#" class="brand-logo" style="margin-left: 2%;">Maryanne Heinbaugh</a>
               <ul id="nav-mobile" class="right hide-on-med-and-down"style="margin-right: 2%; font-family:Courgette, cursive;">
                 <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="portfolio2.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
               </ul>
             </div>
@@ -33,22 +33,48 @@
         
           <div class="container">
             <!-- carousel-->
-            <h2>Sample of Work</h2>
-            <div class="carousel carousel-slider" data-indicators="true" style="margin-bottom: 10%">
+            <h3>Sample of Work</h3>
+         
+            <div class="carousel carousel-slider" data-indicators="true" style="margin-bottom: 10%;">
+              <div>
+                <div class="carosel-fixed-item">
 
-                  <a href="#one!" class="carousel-item">
-                    <img src="images/portfolio/clicky2.jpg" alt="">
-                  </a>
-
-                <a href="#two!" class="carousel-item">
+                
+              </div>
+                <div href="#one!" class="carousel-item" >
+                    <h1 style="background: yellow;margin-top: 0; border: solid; ">Hello1</h1>
+              
+              
+ 
+                  <!-- <a href="#one!" class="carousel-item" style="border-style: solid; border-color: green"> -->
+                      
+                      <img src="images/portfolio/clicky2.jpg" alt="">
+                    <!-- </a> -->
+                    
+                   
+                </div>
+                <div href="#one!" class="carousel-item" >
+                    <h1 style="background: yellow;margin-top: 0; border: solid; ">Hello2</h1>
+              
+              
+ 
+                  <!-- <a href="#one!" class="carousel-item" style="border-style: solid; border-color: green"> -->
+                      
+                      <img src="images/portfolio/Burger2.JPG" alt="">
+                    <!-- </a> -->
+                    
+                   
+                </div>
+                <!-- <a href="#two!" class="carousel-item" style="border-style: solid; border-color: green;border-top: none">
                   <img src="images/portfolio/superheros.jpg" alt="">
                 </a>
-                <a href="#three!" class="carousel-item">
+                <a href="#three!" class="carousel-item"style="border-style: solid; border-color: green;">
                   <img src="images/portfolio/Burger2.JPG" alt="">
                 </a>
-                <a href="#four!" class="carousel-item">
+                <a href="#four!" class="carousel-item"style="border-style: solid; border-color: green;">
                   <img src="images/portfolio/capitol.jpg" alt="">
-                </a>
+                </a> -->
+              </div>
             
 
             </div>
@@ -57,7 +83,7 @@
             <!-- <div class="carousel carousel-slider center" data-indicators="true">
                 <div class="carousel-fixed-item center">
                   <a class="btn waves-effect white grey-text darken-text-2">button</a>
-                </div>
+                </div>s
                 <div class="carousel-item red white-text" href="#one!">
                   <h2>First Panel</h2>
                   <p class="white-text">This is your first panel</p>
@@ -112,8 +138,22 @@
     $('.carousel.carousel-slider').carousel({
     fullWidth: true,
     indicators: true
+    });
+
+    // $("li.indicator-item").click(function(){
+      // $(".indicator-item.active").css("background-color", "green");
+      $("li.indicator-item").css("background-color", "yellow");
+    // });
+
+    $("li.indicators").css({"border":"solid","border":"black"});
+    // $('.indicators').css('border-bottom', 'solid');
+
+
+    
+    $('input#input_text, textarea#textarea2').characterCounter();
+    
+  
   });
-      });
 
       
   </script>
