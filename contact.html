@@ -37,7 +37,7 @@
       <form class="col s12">
         <div class="row">
           <div class="input-field col s5">
-            <i class="material-icons prefix">account_circle</i>
+            <i class="material-icons prefix">person</i>
             <input " id="name" type="text" class="validate name" name="name">
             <label for="name">Name</label>
           </div>
@@ -96,7 +96,7 @@
               </div>
             </div>
             <div class="status"></div>
-            <button>submit</button>
+            <button type="submit"class="submit btn-small green darken-4" name="action">Send<i class="material-icons right">send</i></button>
           </div>
       </form>
     </div>
@@ -128,10 +128,13 @@
         var statusElm = $('.status');
         statusElm.empty();
         if(email.length>5 && email.includes('@') && email.includes('.')){
-          statusElm.append("<div>Email is valid</div>")
+          console.log("this is a good email address")
+          // event.preventDefault();
+          // statusElm.append("<div>Email is valid</div>")
         }else{
-          event.preventDefault();
-          statusElm.append("<div>Email is not valid</div>")
+          // event.preventDefault();
+          console.log("bad email address")
+          // statusElm.append("<div>Email is not valid</div>")
 
         }
   
