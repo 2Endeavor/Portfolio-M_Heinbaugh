@@ -96,3 +96,11 @@ h6{
   font-style: italic;
   margin-top: 0;
 }
+
+
+.carousel .indicators .indicator-item{
+  background-color: blue;
+}
+.carousel .indicators .indicator-item.active{
+  background-color: yellow;
+}
