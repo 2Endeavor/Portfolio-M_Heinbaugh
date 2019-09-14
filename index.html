@@ -15,6 +15,10 @@
       <link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa|Kurale|Montaga|Petrona&display=swap" rel="stylesheet">
       <link rel='shortcut icon' href='images/portfolioFavcon2.jpg' type='image/jpg' >
 
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
 
       <link rel="stylesheet" type="text/css" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,6 +26,14 @@
     <title>M. Heinbaugh</title>
   </head>
   <body>
+    <!-- Dropdown Structure -->
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="index.html">About</a></li>
+    <li class="divider"></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li class="divider"></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
     <nav>
       <div class="nav-wrapper green darken-4">
         <a href="#" class="brand-logo" style="margin-left: 2%;">Maryanne Heinbaugh</a>
@@ -29,6 +41,8 @@
           <li><a href="index.html">About</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="contact.html">Contact</a></li>
+           <!-- Dropdown Trigger -->
+          <li><a class="dropdown-trigger hide-on-med-and-up" href="#!" data-target="dropdown1">Menu<i class="material-icons right">arrow_drop_down</i></a></li>
         </ul>
       </div>
     </nav>
@@ -38,6 +52,7 @@
 
 <div class="container-1" >
 <!-- use the class of float-text to make the paragraph text responsive -->
+
   <div class="right-box section" >
     
     <div class=" margin-left black-text darken-5 float-text " style="width: 85%; margin-left: 5%; margin-top: 5%;"><img src= "images/HeadShot.jpg" alt="" class="responsive-img, profile left" style ="width: 25%; padding-right: 2% "alt= "">
@@ -86,14 +101,24 @@
 
   
 
-<footer class="page-footer green darken-4">
+    <footer class="page-footer green darken-4">
 
-  <div class="footer-copyright green darken-4" style="font-family:Courgette, cursive;">
+      <div class="footer-copyright green darken-4" style="font-family:Courgette, cursive;">
 
-       © 2019 Copyright M.Heinbaugh
-  </div>
-</footer>
-    <!-- JavaScript at end of body for optimized loading -->
-    <script type="text/javascript" src="javascript/materialize.min.js"></script>
+          © 2019 Copyright M.Heinbaugh
+      </div>
+    </footer>
+    <!-- JavaScript at end of body for optimized loading
+    <script type="text/javascript" src="javascript/materialize.min.js"></script> -->
+  <script>
+      $(document).ready(function(){
+       $(".dropdown-trigger").dropdown();
+    
+      
+    
+    });
+  
+        
+  </script>
   </body>
 </html>
