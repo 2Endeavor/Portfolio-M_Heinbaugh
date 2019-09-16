@@ -99,12 +99,12 @@ h6{
 
 
 .carousel .indicators .indicator-item{
-  background-color: blue;
+  background-color: yellow;
   margin-top: 8px;
 
 }
 .carousel .indicators .indicator-item.active{
-  background-color: yellow;
+  background-color: lime;
 }
 .indicators{
   /* background-color: blue; */
