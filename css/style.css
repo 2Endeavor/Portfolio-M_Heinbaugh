@@ -34,7 +34,7 @@ main {
   display: flex;
 
 }
-h6{
+h6 p{
     /* font-family: 'Great Vibes', cursive; */
     /* font-family: 'Courgette', cursive; */
     /* font-family: 'Kurale', serif; */
@@ -46,6 +46,7 @@ h6{
     
 
 }
+
 
 
 .brand-logo{
@@ -99,12 +100,12 @@ h6{
 
 
 .carousel .indicators .indicator-item{
-  background-color: yellow;
+  background-color: lime;
   margin-top: 8px;
 
 }
 .carousel .indicators .indicator-item.active{
-  background-color: lime;
+  background-color: yellow;
 }
 .indicators{
   /* background-color: blue; */
