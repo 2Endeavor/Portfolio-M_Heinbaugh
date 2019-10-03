@@ -34,6 +34,7 @@ main {
 }
 .footer-copyright{
   display: flex;
+ 
 
 }
 h6 p{
@@ -55,7 +56,9 @@ h6 p{
   display:flex;
   /* padding-left: 25px; */
   /* font-family: 'Great Vibes', cursive; */
-  font-family: 'Courgette', cursive;
+  /* font-family: 'Courgette', cursive; */
+  /* font-family: Quicksand,sans-serif; */
+  font-family: sans-serif;
   /* font-family: 'Kurale', serif; */
   /* font-family: 'Aref Ruqaa', serif; */
   /* font-family: 'Petrona', serif; */
